@@ -4,4 +4,6 @@
 
 ### Uses: Gatsby, React (JS), Sanity, GraphQL, Serverless Functions
 
-### [Check the course out here](https://mastergatsby.com/)
+### [Check out the final solution](https://pensive-knuth-12f72f.netlify.app/)
+
+### [Check out the Master Gatsby course](https://mastergatsby.com/)
