@@ -4,6 +4,6 @@
 
 ### Uses: Gatsby, React (JS), Sanity, GraphQL, Serverless Functions
 
-### [Check out the final solution](https://pensive-knuth-12f72f.netlify.app/)
+### [Check out the final solution](https://smoreslices.netlify.app/)
 
 ### [Check out the Master Gatsby course](https://mastergatsby.com/)
