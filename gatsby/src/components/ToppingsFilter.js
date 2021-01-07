@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import styled from 'styled-components';
@@ -7,6 +8,7 @@ const ToppingsStyles = styled.div`
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 4rem;
+
   a {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -17,10 +19,12 @@ const ToppingsStyles = styled.div`
     border-radius: 2px;
     text-decoration: none;
     font-size: clamp(1.5rem, 1.4vw, 2.5rem);
+
     .count {
       background: white;
       padding: 2px 5px;
     }
+    
     &[aria-current='page'] {
       background: var(--yellow);
     }

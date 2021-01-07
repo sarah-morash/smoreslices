@@ -29,6 +29,12 @@ const SiteBorderStyles = styled.div`
 const ContentStyles = styled.div`
   background: white;
   padding: 2rem;
+
+  .message {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 10rem;
+  }
 `;
 
 export default function Layout({ children }) {

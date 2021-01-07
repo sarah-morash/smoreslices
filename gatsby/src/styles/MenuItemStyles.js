@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const MenuItemStyles = styled.div`
   display: grid;
   grid-template-columns: 100px 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   gap: 0 1.3rem;
   align-content: center;
   align-items: center;

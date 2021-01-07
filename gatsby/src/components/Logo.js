@@ -5,7 +5,7 @@ import stripes from '../assets/images/stripes.svg';
 const LogoStyles = styled.div`
   /* This value controls the entire size of the logo*/
   font-size: 6px;
-  font-size: clamp(1px, 0.65vw, 8px);
+  /* font-size: clamp(1px, 0.65vw, 8px); */
   width: 30em;
   height: 30em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -15,6 +15,7 @@ const LogoStyles = styled.div`
   background-size: 150em;
   border: var(--borderSize) solid white;
   display: flex;
+
   .inner {
     margin: var(--borderSize);
     flex: 1;
@@ -23,10 +24,12 @@ const LogoStyles = styled.div`
     grid-template-rows: 20% 1fr 1fr;
     align-content: center;
   }
+
   .est {
     font-size: 1.5em;
     align-self: center;
   }
+
   h1 {
     display: grid;
     grid-template-rows: 8fr 2fr;
@@ -42,12 +45,14 @@ const LogoStyles = styled.div`
     letter-spacing: 0.2em;
     transform: translateY(-0.15em);
   }
+
   .slicks {
     transform: scale(1.4);
     display: block;
     text-shadow: 0.18em 0.18em 0 rgba(0, 0, 0, 0.05);
     perspective: 100px;
   }
+  
   .letter {
     font-size: 5em;
     color: var(--red);

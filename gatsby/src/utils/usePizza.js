@@ -31,8 +31,6 @@ export default function usePizza({ pizzas, values }) {
       mapleSyrup: values.mapleSyrup,
     };
 
-    console.log(`${process.env.GATSBY_SERVERLESS_BASE}/placeOrder`);
-
     const res = await fetch(
       `${process.env.GATSBY_SERVERLESS_BASE}/placeOrder`,
       {
@@ -51,7 +49,7 @@ export default function usePizza({ pizzas, values }) {
       setError(text.message);
     } else {
       setLoading(false);
-      setMessage('Success! Come on down for you pizza!');
+      setMessage('Success! Come on down for your pizza!');
     }
   }
 

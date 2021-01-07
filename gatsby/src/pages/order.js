@@ -36,7 +36,7 @@ export default function Order({ data }) {
   });
 
   if (message) {
-    return <p>{message}</p>;
+    return <p className="message">{message}</p>;
   }
 
   return (

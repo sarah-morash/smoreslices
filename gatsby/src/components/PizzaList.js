@@ -7,7 +7,16 @@ const PizzaGridStyles = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 4rem;
-  grid-auto-rows: auto auto 500px;
+  grid-auto-rows: auto auto 400px;
+
+  @media (max-width: 1024px) {
+    grid-auto-rows: auto auto 300px;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+  }
 `;
 
 const PizzaStyles = styled.div`
@@ -17,9 +26,16 @@ const PizzaStyles = styled.div`
   @supports not (grid-template-rows: subgrid) {
     --rows: auto auto 1fr;
   }
+
   grid-template-rows: var(--rows, subgrid);
   grid-row: span 3;
   grid-gap: 1rem;
+  max-height: 500px;
+
+  @media (max-width: 1024px) {
+    max-height: 400px;
+  }
+
   h2,
   p {
     margin: 0;

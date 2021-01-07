@@ -20,10 +20,12 @@ export const ItemsGrid = styled.div`
 export const ItemStyles = styled.div`
   text-align: center;
   position: relative;
+
   img {
     height: auto;
     font-size: 0;
   }
+
   p {
     top: 0;
     transform: rotate(-2deg) translateY(-10px);
@@ -34,9 +36,11 @@ export const ItemStyles = styled.div`
     font-size: 2rem;
     font-size: clamp(12px, 5vw, 20px);
   }
+
   .mark {
     display: inline;
   }
+  
   @keyframes shine {
     from {
       background-position: 200%;
